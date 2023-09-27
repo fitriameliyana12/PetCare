@@ -1,0 +1,73 @@
+body {
+  background-image: url(assets/img/bekgron8.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* color: rgb(26, 26, 26); */
+  font-family: "Roboto Slab", serif;
+}
+.header-img {
+  height: 250px;
+  width: max-content;
+  object-fit: cover;
+}
+.navbar {
+  background-color: rgb(75, 150, 200);
+}
+.navbar-brand {
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+.navbar-brand:hover {
+  color: rgb(25, 25, 25);
+}
+.nav-item::after {
+  content: "";
+  display: block;
+  width: 0px;
+  height: 5px;
+  background: rgb(25, 25, 25);
+  transition: 0.2s;
+}
+.nav-item:hover::after {
+  width: 100%;
+}
+.nav-link {
+  padding: 10px;
+  transition: 0.2s;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+.nav-link:hover {
+  color: rgb(25, 25, 25);
+}
+.dropdown-item:active {
+	background-color: rgb(75, 150, 200);
+}
+.carousel-caption {
+  background-color: rgba(255, 255, 255, 0.75);
+  color: rgb(25, 25, 25);
+}
+.card {
+  background-color: rgb(255, 255, 255);
+  color: rgb(25, 25, 25);
+}
+.card.login {
+  width: 250px;
+}
+.card.registration{
+  width: 500px;
+}
+.jumbotron{
+  background-color:rgb(88, 165, 189);
+  color: white;
+}
+.btn.banner{
+  font-size: 25px;
+  border-radius: 50px;
+}
+.footer {
+  background-color: rgb(25, 25, 25);
+  color: rgb(255, 255, 255);
+  height: 200px;
+}
